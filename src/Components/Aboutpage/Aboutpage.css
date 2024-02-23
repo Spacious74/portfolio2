@@ -1,0 +1,67 @@
+.wrap {
+  position: relative;
+}
+
+.about-container {
+  width: 80%;
+  margin: auto;
+  height: 90vh;
+  align-items: start;
+  gap: 30px;
+  scroll-margin: 150px;
+}
+.asvg {
+  position: absolute;
+}
+.about-text {
+  width: 40%;
+  line-height: 1.7;
+  font-size: 1.1rem;
+  color: #c5c8cc;
+  padding-top: 90px;
+}
+.ab-head {
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-size: 1.5rem;
+  padding-top: 90px;
+}
+
+.ellipse {
+  top: 15%;
+  left: 10%;
+  animation: ellipse 15s linear infinite;
+}
+@keyframes ellipse {
+  0% {
+    transform: translate(0px, 0px);
+  }
+  25% {
+    transform: translate(20px, 20px);
+  }
+  50% {
+    transform: translate(-20px, 40px);
+  }
+  75% {
+    transform: translate(-40px, 20px);
+  }
+  100% {
+    transform: translate(0px, 0px);
+  }
+}
+.bar {
+  right: 10%;
+  bottom: 25%;
+  animation: bar 10s linear infinite;
+}
+@keyframes bar {
+  0% {
+    transform: translate(0px, 0px) rotate(0deg);
+  }
+  50% {
+    transform: translate(20px, 20px) rotate(20deg);
+  }
+  100% {
+    transform: translate(0px, 0px) rotate(0deg);
+  }
+}

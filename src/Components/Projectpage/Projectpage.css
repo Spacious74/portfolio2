@@ -1,0 +1,83 @@
+.project-container {
+  width: 80%;
+  margin: auto;
+  padding-top: 120px;
+}
+.prohead {
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-size: 1.5rem;
+  margin-bottom: 60px;
+}
+.project-section {
+  justify-content: left;
+  gap: 50px;
+  margin-bottom: 10rem;
+}
+.project-section .pro-img {
+  width: 55%;
+}
+.project-section .project-info {
+  width: 45%;
+}
+.carousel-img {
+  border-radius: 15px;
+  overflow: hidden;
+}
+.carousel-img img {
+  border-radius: 15px;
+}
+.slide-btn {
+  font-size: 1.5rem;
+  width: 60px;
+  height: 40px;
+  background-color: #fff;
+  border: solid 1px;
+  border-radius: 10px;
+  color: #4b4d55;
+}
+
+.project-info {
+  flex-direction: column;
+  gap: 20px;
+  align-items: start;
+}
+.project-info .pro-title {
+  font-size: 1.4rem;
+  font-weight: lighter;
+}
+.project-info .pro-tech {
+  color: #84868f;
+  margin-bottom: 20px;
+}
+.pro-link {
+  justify-content: left;
+  gap: 20px;
+}
+.pro-link .btn {
+  padding: 10px 20px;
+  border: solid 1px #fff;
+  background-color: transparent;
+  border-radius: 200px;
+  color: #fff;
+  font-size: 1.1rem;
+  text-decoration: none;
+}
+
+.square {
+  top: 5%;
+  animation: square 35s linear infinite;
+}
+@keyframes square {
+  0% {
+    transform: rotate(0def);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.onefour {
+  right: 10%;
+  top: 50%;
+}

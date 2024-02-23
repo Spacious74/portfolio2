@@ -1,0 +1,51 @@
+.skills-container {
+  height: 80vh;
+  width: 80%;
+  margin: auto;
+}
+.sketch {
+  bottom: 12%;
+  right: 5%;
+}
+.skillhead {
+  font-size: 3rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin-bottom: 40px;
+  position: absolute;
+  right: 10%;
+  bottom: 10%;
+  color: #484849;
+}
+.skills {
+  width: 100%;
+  gap: 40px;
+  flex-direction: column;
+  margin-bottom: 150px;
+}
+.skills .category {
+  width: 100%;
+  align-items: start;
+  justify-content: left;
+  gap: 20px;
+}
+
+.skills .category .cate-skills {
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: left;
+}
+.skills .category .categoryhead {
+  width: 15%;
+}
+
+.skills .skillwrap {
+  background: linear-gradient(135deg, #4177ff, #800080, #ff5506);
+  padding: 2px;
+  border-radius: 10px;
+}
+.skillwrap .skill {
+  background-color: #0b0b0a;
+  padding: 15px 25px;
+  border-radius: 10px;
+}

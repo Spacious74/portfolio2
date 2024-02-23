@@ -1,0 +1,44 @@
+.nav-container {
+  background-color: transparent;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  backdrop-filter: blur(10px);
+  /* 795FF0 */
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0px;
+  color: #fff;
+  width: 80%;
+  margin: auto;
+}
+
+@font-face {
+  font-family: "nasa";
+  src: url("../../assets/fonts/nasalization-rg.otf");
+}
+
+.navbar-logo {
+  font-size: 1.2rem;
+  font-family: "nasa";
+  letter-spacing: 2px;
+}
+
+.navbar-links ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  gap: 40px;
+}
+
+.navbar-links ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.navbar-links ul li a:hover {
+  text-decoration: underline;
+}

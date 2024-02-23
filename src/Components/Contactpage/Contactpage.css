@@ -1,0 +1,104 @@
+.contact-container {
+  width: 80%;
+  margin: auto;
+  height: 80vh;
+  padding: 70px 0px;
+  justify-content: left;
+  align-items: start;
+  gap: 50px;
+  scroll-margin: 50px;
+}
+.contact-container .form-container {
+  width: 55%;
+}
+.contact-container .picmail {
+  width: 40%;
+}
+.picmail .pic-container {
+  width: 15%;
+  background: linear-gradient(135deg, #ff5506, #800080, #3f52ff);
+  border-radius: 200px;
+  padding: 2px;
+  margin-bottom: 20px;
+}
+.picmail .mail {
+  font-size: 1.2rem;
+}
+.pic-container .picture {
+  width: 100%;
+  border-radius: 400px;
+}
+.contacthead {
+  font-size: 1.5rem;
+  margin-bottom: 60px;
+}
+.form {
+  width: 100%;
+  flex-direction: column;
+  align-items: start;
+  gap: 15px;
+  box-sizing: border-box;
+}
+.form .input-field {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  box-sizing: border-box;
+}
+.input-field label {
+  font-size: 1rem;
+  color: #9f9fac;
+}
+.input-field input {
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #0b0b0a;
+  border: solid 1px #9f9fac;
+  border-radius: 15px;
+  font-size: 1.2rem;
+  padding: 8px 12px;
+  color: #fff;
+}
+.input-field textarea {
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #0b0b0a;
+  border: solid 1px #9f9fac;
+  border-radius: 15px;
+  font-size: 1.2rem;
+  padding: 8px 12px;
+  color: #fff;
+  resize: none;
+}
+.sub-btn {
+  padding: 10px 20px;
+  background-color: transparent;
+  border-radius: 200px;
+  color: #fff;
+  font-size: 1.1rem;
+  text-decoration: none;
+  cursor: pointer;
+  background-color: #0b0b0a;
+  border: none;
+}
+.wrapbtn {
+  background: linear-gradient(135deg, #ff5506, #800080, #3f52ff);
+  border-radius: 200px;
+  padding: 2px;
+}
+.star2 {
+  top: 10%;
+  left: 0%;
+  animation: rotateStar 30s linear infinite;
+}
+.eye2 {
+  right: 10%;
+  bottom: 20%;
+  animation: eye 8s linear infinite;
+}
+.footer {
+  background-color: #000;
+  padding: 30px;
+  text-align: center;
+}

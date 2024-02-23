@@ -1,0 +1,106 @@
+.wrap {
+  position: relative;
+}
+.h-container {
+  height: 100vh;
+  align-items: start;
+  flex-direction: column;
+  width: 80%;
+  margin: auto;
+}
+.allsvg {
+  position: absolute;
+}
+.links {
+  gap: 20px;
+  justify-content: left;
+}
+.links a {
+  background: -webkit-linear-gradient(135deg, #ff5506, #800080, #3f52ff);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.grad {
+  background: -webkit-linear-gradient(135deg, #ff5506, #800080, #3f52ff);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+}
+.text-sm {
+  font-size: 2rem;
+  font-weight: lighter;
+}
+.text-lg {
+  width: 70%;
+  font-size: 4rem;
+}
+.star {
+  top: 10%;
+  right: 20%;
+  animation: rotateStar 20s linear infinite;
+}
+@keyframes rotateStar {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.sellipse {
+  top: 12%;
+  left: 30%;
+  animation: sellipse 6s linear infinite;
+}
+@keyframes sellipse {
+  0% {
+    transform: translateX(0px);
+  }
+  50% {
+    transform: translateX(30px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+.hshape {
+  top: 20%;
+  left: 0;
+}
+.wave {
+  top: 60%;
+  right: 0;
+}
+
+.eye {
+  right: 38%;
+  bottom: 20%;
+  animation: eye 8s linear infinite;
+}
+@keyframes eye {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(20px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+.arrow {
+  right: 5%;
+  bottom: 5%;
+  position: fixed;
+  cursor: pointer;
+}
+.arrow-link {
+  background-color: red;
+  border: solid 1px #fff;
+}
